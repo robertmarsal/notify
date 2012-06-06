@@ -11,10 +11,11 @@ class Notify {
     const base = 'notify-send';
     
     public static function show ($summary, $body, $urgency=URGENCY_NORMAL) {
-        self::call(self::base.' "'.$summary.'" "'.$body.'" -u '.$urgency);          
+        $call = self::base.' "'.$summary.'" "'.$body.'" -u '.$urgency;
+        self::call($call);          
     }
 
-    private static function call ($cmd) {
-        shell_exec($cmd);
+    private static function call ($call) {
+        shell_exec($call);
     }
 }
