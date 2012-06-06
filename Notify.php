@@ -10,8 +10,8 @@ class Notify {
 
     const base = 'notify-send';
     
-    public static function show ($summary, $body, $urgency = URGENCY_NORMAL) {
-        self::call(self::base.' '.$summary.' '.$body.' -u '.$urgency);          
+    public static function show ($summary, $body, $urgency=URGENCY_NORMAL) {
+        self::call(self::base.' "'.$summary.'" "'.$body.'" -u '.$urgency);          
     }
 
     private static function call ($cmd) {
