@@ -4,7 +4,6 @@ Allows sending desktop notifications from php scripts.
 ### Usage
 ```php
 <?php
-require_once 'Notify.php';
-
-Notify::show("Hello", "World");
+    require_once 'Notify.php';
+    \Notify\Notify::show('Test', 'Hello World');                                                
 ```
