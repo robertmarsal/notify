@@ -4,12 +4,12 @@ Allows sending desktop notifications from php scripts.
 #### Usage
 ```php
 <?php
-    require_once 'Notify.php';
-    \Notify\Notify::show('Test', 'Hello World');                                                
+  require_once 'Notify.php';
+  \Notify\Notify::show('Test', 'Hello World');                                                
 ```
 #### Requirements
 Requires **libnotify-bin** to be installed
 
 #### Tested On
-* Ubuntu 11.04
+* Ubuntu 10.10
 * Ubuntu 12.04
