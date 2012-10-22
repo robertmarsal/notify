@@ -13,9 +13,9 @@ Allows sending desktop notifications from php scripts.
 Requires **libnotify-bin** to be installed
 
 #### Tested On
-Ubuntu 10.10  
-Ubuntu 12.04
-Ubuntu 12.10
+Ubuntu 10.10    
+Ubuntu 12.04  
+Ubuntu 12.10  
 
 #### License
 The MIT License (MIT)  
